@@ -684,7 +684,7 @@ int OTTO::getNoise(){
 
 //-- Button
 uint8_t OTTO::getButton(){
-   if (analogRead (PIN_Button)>50) return (1);
+   if (analogRead (PIN_Button)>buttonSense) return (1);
    else return(0);
 }
 

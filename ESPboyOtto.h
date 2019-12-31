@@ -47,6 +47,7 @@ GPL license
 
 //-- Pins
 
+#define buttonSense 50
 
 #define PIN_YL          2  // left leg
 #define PIN_YR          14  // right leg
